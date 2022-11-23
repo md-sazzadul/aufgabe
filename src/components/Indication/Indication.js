@@ -4,7 +4,7 @@ import { Button, Col, Form, Row } from 'react-bootstrap';
 const Indication = ({ d, setRemovedId }) => {
     const { date, code, id } = d;
     return (
-        <div className='d-flex justify-content-center mt-5'>
+        <div className='d-flex justify-content-center my-4'>
 
             <Form className='bg-light w-100 border border-primary border-3 rounded px-5 mt-1'>
                 <h4 className='mt-3 mb-4'>Date : <span className='text-primary'>{date}</span> <span className='mx-5'>CodeSystem : <span className='text-primary'>{code}</span></span></h4>
